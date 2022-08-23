@@ -1,0 +1,404 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+#menuu {
+  background-image: linear-gradient(#ccccd6, #e2e1e4);
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px #e2e1e4;
+  font-size: 25px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#menuu a {
+  color: #918ea1;
+}
+
+#menuu a:hover {
+  color: #a7a8bd;
+}
+
+#menuu a.active {
+  color: #3d2e44;
+}
+
+#leftt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+#rightt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+}
+
+
+
+#backgroundd {
+  background-color: #e2e1e4;
+  height: 100%;
+  width: 100%;
+}
+
+#fadee {
+  animation: fadeInAnimation ease 1.5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+.projectt {
+  display: flex;
+  flex-direction: row;
+}
+
+.informationn {
+  background-color: #ccccd6;
+  font-family: 'Lora', serif;
+  color: #3d2e44;
+  width: 400px;
+  border-radius: 8px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.titlee {
+  font-size: 30px;
+  text-shadow: 1px 1px #e2e1e4;
+}
+
+.datee {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.categoryy {
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 5px;
+}
+
+.descriptionn {
+  background-color: #ccccd6;
+  font-family: 'Lora', serif;
+  color: #3d2e44;
+  line-height: 1.5;
+  width: 400px;
+  border-radius: 8px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.imagee {
+  border-radius: 8px;
+}
+
+
+
+#projectlcc {
+  gap: 25px;
+}
+
+#wordlcc {
+  margin-left: 200px;
+}
+
+#informationlcc {
+  margin-top: 165px;
+}
+
+#descriptionlcc {
+  margin-top: 25px;
+}
+
+#imagelcc {
+  height: 425px;
+  margin-top: 100px;
+}
+
+
+
+#projectbll {
+  gap: 25px;
+}
+
+#informationbll {
+  margin-top: 130px;
+}
+
+#descriptionbll {
+  margin-top: 25px;
+}
+
+#imagebll {
+  height: 375px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+
+
+#projectlee {
+  gap: 25px;
+}
+
+#wordlee {
+  margin-left: 200px;
+}
+
+#informationlee {
+  margin-top: 180px;
+}
+
+#descriptionlee {
+  margin-top: 25px;
+}
+
+#imagelee {
+  height: 450px;
+  margin-top: 100px;
+}
+
+
+
+#projectrnn {
+  gap: 25px;
+}
+
+#informationrnn {
+  margin-top: 95px;
+}
+
+#descriptionrnn {
+  margin-top: 25px;
+}
+
+#imagernn {
+  margin-top: 205px;
+  margin-left: 200px;
+}
+
+
+
+#projecttll {
+  gap: 25px;
+}
+
+#wordtll {
+  margin-left: 200px;
+}
+
+#informationtll {
+  margin-top: 180px;
+}
+
+#descriptiontll {
+  margin-top: 25px;
+}
+
+#imagetll {
+  height: 450px;
+  margin-top: 100px;
+}
+
+
+
+#projectctt {
+  gap: 25px;
+}
+
+#informationctt {
+  margin-top: 140px;
+}
+
+#descriptionctt {
+  margin-top: 25px;
+}
+
+#imagectt {
+  height: 375px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+
+
+#projecthhh {
+  gap: 25px;
+}
+
+#wordhhh {
+  margin-left: 200px;
+}
+
+#informationhhh {
+  margin-top: 105px;
+}
+
+#descriptionhhh {
+  margin-top: 25px;
+}
+
+#imagehhh {
+  height: 325px;
+  margin-top: 100px;
+}
+
+
+
+#projecthpp {
+  gap: 25px;
+}
+
+#informationhpp {
+  margin-top: 175px;
+}
+
+#descriptionhpp {
+  margin-top: 25px;
+}
+
+#imagehpp {
+  height: 525px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+
+
+#projectptt {
+  gap: 25px;
+}
+
+#wordptt {
+  margin-left: 200px;
+}
+
+#informationptt {
+  margin-top: 100px;
+}
+
+#descriptionptt {
+  margin-top: 25px;
+}
+
+#imageptt {
+  height: 250px;
+  margin-top: 140px;
+}
+
+
+
+#projectppp {
+  gap: 25px;
+}
+
+#informationppp {
+  margin-top: 95px;
+}
+
+#descriptionppp {
+  margin-top: 25px;
+}
+
+#imageppp {
+  height: 275px;
+  margin-top: 145px;
+  margin-left: 200px;
+}
+
+
+
+#projectgmm {
+  gap: 25px;
+}
+
+#wordgmm {
+  margin-left: 200px;
+}
+
+#informationgmm {
+  margin-top: 135px;
+}
+
+#descriptiongmm {
+  margin-top: 25px;
+}
+
+#imagegmm {
+  height: 325px;
+  margin-top: 100px;
+}
+
+
+
+#projecttcc {
+  gap: 25px;
+}
+
+#informationtcc {
+  margin-top: 135px;
+}
+
+#descriptiontcc {
+  margin-top: 25px;
+}
+
+#imagetcc {
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+
+
+#projectmff {
+  gap: 25px;
+}
+
+#wordmff {
+  margin-left: 200px;
+}
+
+#informationmff {
+  margin-top: 130px;
+}
+
+#descriptionmff {
+  margin-top: 25px;
+}
+
+#imagemff {
+  height: 325px;
+  margin-top: 100px;
+}

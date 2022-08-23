@@ -1,0 +1,352 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+#menuu {
+  background-image: linear-gradient(#ccccd6, #e2e1e4);
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px #e2e1e4;
+  font-size: 25px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#menuu a {
+  color: #918ea1;
+}
+
+#menuu a:hover {
+  color: #a7a8bd;
+}
+
+#menuu a.active {
+  color: #3d2e44;
+}
+
+#leftt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+#rightt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+}
+
+
+
+#backgroundd {
+  background-color: #e2e1e4;
+  height: 100vh;
+  width: 100vw;
+}
+
+#fadee {
+  animation: fadeInAnimation ease 1.5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+#sunn {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 275px;
+  color: #353241;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25vh;
+}
+
+#evainee {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 150px;
+  color: #353241;
+  position: absolute;
+  padding-top: 10vh;
+  padding-left: 5vw;
+}
+
+#jiayii {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 150px;
+  color: #353241;
+  position: absolute;
+  padding-top: 65vh;
+  padding-left: 65vw;
+}
+
+#tagrll {
+  font-family: 'Comfortaa', cursive;
+  font-size: 50px;
+  position: absolute;
+  padding-top: 15vh;
+  padding-left: 60vw;
+}
+
+#tagkgg {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 10vh;
+  padding-left: 86vw;
+}
+
+#tagwmm {
+  font-family: 'Nixie One', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 8vh;
+  padding-left: 48vw;
+}
+
+#tagyww {
+  font-family: 'Sarina', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 24vh;
+  padding-left: 50vw;
+}
+
+#tagctt {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 25vh;
+  padding-left: 80vw;
+}
+
+#tagsjj {
+  font-family: 'Sarina', cursive;
+  font-size: 50px;
+  position: absolute;
+  padding-top: 75vh;
+  padding-left: 10vw;
+}
+
+#tagjzz {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 64vh;
+  padding-left: 24vw;
+}
+
+#tagsff {
+  font-family: 'Parisienne', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 92vh;
+  padding-left: 8vw;
+}
+
+#tagsnn {
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 86vh;
+  padding-left: 20vw;
+}
+
+#tagjgg {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 70vh;
+  padding-left: 5vw;
+}
+
+#tagmtt {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 80vh;
+  padding-left: 2vw;
+}
+
+#tagdll {
+  font-family: 'Nixie One', cursive;
+  font-size: 50px;
+  position: absolute;
+  padding-top: 80vh;
+  padding-left: 40vw;
+}
+
+#taglyy {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 90vh;
+  padding-left: 50vw;
+}
+
+#tagztt {
+  font-family: 'Parisienne', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 75vh;
+  padding-left: 35vw;
+}
+
+#tagtww {
+  font-family: 'Nixie One', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 45vh;
+  padding-left: 80vw;
+}
+
+#tagbww {
+  font-family: 'Parisienne', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 38vh;
+  padding-left: 90vw;
+}
+
+#tagxll {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 35vh;
+  padding-left: 70vw;
+}
+
+#taggqq {
+  font-family: 'Sarina', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 60vh;
+  padding-left: 86vw;
+}
+
+#tagskk {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 55vh;
+  padding-left: 76vw;
+}
+
+#tagdzz {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 66vh;
+  padding-left: 70vw;
+}
+
+#taglqq {
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 45vh;
+  padding-left: 15vw;
+}
+
+#tagyyy {
+  font-family: 'Sarina', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 54vh;
+  padding-left: 3vw;
+}
+
+#tagsyy {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 36vh;
+  padding-left: 6vw;
+}
+
+#taggff {
+  font-family: 'Nixie One', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 62vh;
+  padding-left: 8vw;
+}
+
+#tagwjj {
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 68vh;
+  padding-left: 50vw;
+}
+
+#tagmzz {
+  font-family: 'Sarina', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 4vh;
+  padding-left: 74vw;
+}
+
+#tagfll {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 90vh;
+  padding-left: 35vw;
+}
+
+#taglll {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 32vh;
+  padding-left: 40vw;
+}
+
+#tagmcc {
+  font-family: 'Parisienne', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 34vh;
+  padding-left: 24vw;
+}
+
+#tagmjj {
+  font-family: 'Sarina', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 88vh;
+  padding-left: 65vw;
+}
+
+#tagstt {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 8vh;
+  padding-left: 3vw;
+}
