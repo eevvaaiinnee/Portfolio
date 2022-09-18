@@ -125,6 +125,69 @@ a {
 
 
 
+#projectnss {
+  gap: 25px;
+}
+
+#informationnss {
+  margin-top: 150px;
+}
+
+#descriptionnss {
+  margin-top: 25px;
+}
+
+#imagenss {
+  height: 425px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+
+
+#projectapp {
+  gap: 25px;
+}
+
+#wordapp {
+  margin-left: 200px;
+}
+
+#informationapp {
+  margin-top: 220px;
+}
+
+#descriptionapp {
+  margin-top: 25px;
+}
+
+#imageapp {
+  height: 575px;
+  margin-top: 100px;
+}
+
+
+
+#projectccc {
+  gap: 25px;
+}
+
+#informationccc {
+  margin-top: 280px;
+}
+
+#descriptionccc {
+  margin-top: 25px;
+}
+
+#imageccc {
+  height: 675px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+
+
 #projectlcc {
   gap: 25px;
 }
