@@ -78,7 +78,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 2vw;
+  gap: 2.5vw;
 }
 
 
@@ -87,6 +87,15 @@ a {
   font-family: 'Lora', serif;
   color: #3d2e44;
   width: 40vw;
+}
+
+#wordd a {
+  text-decoration: underline;
+  color: #3d2e44;
+}
+
+#wordd a:hover {
+  color: #918ea1;
 }
 
 #upp {
